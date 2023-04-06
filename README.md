@@ -21,8 +21,8 @@ def add_two(x: int, y: int) -> int:
 def double_int(x: int) -> int:
 	return x * 2
   
-add_two(1, 2) |> double_int() # ideally
-double_int() <| add_two(1, 2) # alternativelly
+add_two(1, 2) |> double_int # ideally
+double_int <| add_two(1, 2) # alternativelly
 ```
 
 It is heavily based on the [Bython](https://github.com/mathialo/bython) project.
